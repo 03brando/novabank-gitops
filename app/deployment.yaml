@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: novabank-app
-        image: nginx:this-tag-does-not-exist
+        image: nginx:1.25
         ports:
         - containerPort: 80
         resources:
